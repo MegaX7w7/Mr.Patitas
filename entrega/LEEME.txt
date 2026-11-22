@@ -1,0 +1,52 @@
+====================================================================
+MR. PATITAS — PRIMERA ENTREGA FUNCIONAL (MVP)
+Institución Universitaria Politécnico Grancolombiano
+Software en Equipo (Metodología TSPi)
+====================================================================
+
+1. CÓMO ABRIR LA APLICACIÓN
+---------------------------
+1) Copie esta carpeta completa ("entrega") a cualquier ubicación de
+   su computador con Windows (incluso si la ruta contiene espacios).
+2) Haga doble clic en el archivo:
+      iniciar_mr_patitas.bat
+3) La página se abrirá automáticamente en su navegador predeterminado.
+
+Alternativa: también puede hacer doble clic directamente sobre el
+archivo "MrPatitas.html" desde el Explorador de Windows.
+
+
+2. REQUISITOS
+-------------
+- Un navegador web moderno en Windows (Microsoft Edge, Google Chrome
+  o Mozilla Firefox).
+- NO requiere instalar Node.js, npm, PostgreSQL, servidores locales,
+  Python, Visual Studio Code ni dependencias adicionales.
+- NO requiere conexión a Internet: el diseño, los estilos, la lógica
+  y las 6 ilustraciones están integrados dentro de "MrPatitas.html".
+
+
+3. QUÉ INCLUYE ESTA PRIMERA ENTREGA (MVP)
+-----------------------------------------
+- Encabezado con identidad de Mr. Patitas y navegación básica
+  adaptable a escritorio y dispositivos móviles.
+- Sección principal de bienvenida.
+- Sección de categorías visuales (Alimentación, Paseo, Descanso,
+  Juguetes e Higiene).
+- Catálogo demostrativo con 6 productos de ejemplo (3 para perros
+  y 3 para gatos), mostrando imagen, nombre, especie, categoría,
+  descripción breve, atributos, precio de prueba y stock de prueba.
+- Pie de página informativo.
+
+IMPORTANTE: Todos los precios, descripciones y existencias mostradas
+son DATOS FICTICIOS DE PRUEBA para esta entrega académica y NO
+representan un inventario comercial real.
+
+
+4. FUNCIONALIDADES APLAZADAS PARA PRÓXIMAS ENTREGAS
+---------------------------------------------------
+En iteraciones posteriores se incorporarán: catálogo mínimo de 20
+productos (RF06), registro e inicio de sesión, búsqueda básica y
+avanzada, motor híbrido de búsqueda, vista ampliada de detalle,
+carrito de compras, validación real de stock, backend Fastify y
+base de datos PostgreSQL.

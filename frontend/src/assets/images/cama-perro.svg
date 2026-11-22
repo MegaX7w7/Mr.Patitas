@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Ilustración de cama acolchada para perro">
+  <defs>
+    <linearGradient id="bgBed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2ECE6"/>
+      <stop offset="100%" stop-color="#E7DDD2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="280" rx="20" fill="url(#bgBed)"/>
+  <circle cx="88" cy="70" r="48" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="200" cy="224" rx="138" ry="18" fill="#574B42" opacity="0.18"/>
+  <!-- Borde trasero cama -->
+  <path d="M74 156c0-44 48-70 126-70s126 26 126 70v42c0 22-34 34-126 34S74 220 74 198v-42z" fill="#1E4D4F"/>
+  <!-- Cojín interior -->
+  <ellipse cx="200" cy="154" rx="94" ry="44" fill="#FAF8F5"/>
+  <ellipse cx="200" cy="158" rx="82" ry="34" fill="#F3E6D8"/>
+  <!-- Borde frontal rebajado -->
+  <path d="M74 166c22 24 68 34 126 34s104-10 126-34v32c0 22-34 34-126 34S74 220 74 198v-32z" fill="#2A6A6D"/>
+  <!-- Etiqueta lateral Mr. Patitas -->
+  <rect x="172" y="206" width="56" height="16" rx="8" fill="#D96B27"/>
+  <!-- Almohada pequeña con hueso -->
+  <rect x="148" y="138" width="54" height="30" rx="14" fill="#D96B27" transform="rotate(-8 175 153)"/>
+  <circle cx="170" cy="153" r="3" fill="#FAF8F5"/>
+  <circle cx="180" cy="151" r="3" fill="#FAF8F5"/>
+  <path d="M170 153l10-2" stroke="#FAF8F5" stroke-width="3" stroke-linecap="round"/>
+</svg>
