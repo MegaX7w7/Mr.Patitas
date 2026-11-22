@@ -1,5 +1,5 @@
 # Mr. Patitas — Primera Entrega Funcional (MVP)
-
+(PRIMER COMMIT, ASISTIDO TODO: AUDTITAR, MODIFICAR Y ACTUALIZAR DOCUMENTOS Y CODIGO ACTUALES.)
 Catálogo virtual especializado en productos para **perros y gatos**, desarrollado como proyecto académico de Ingeniería de Software (*Software en Equipo* — metodología **TSPi**) en la **Institución Universitaria Politécnico Grancolombiano**.
 
 > **Alcance de esta entrega (MVP):** Esta primera versión demostrativa prioriza la interfaz web moderna y adaptable (escritorio y móvil), la presentación de **6 productos de demostración** y la distribución autónoma para Windows mediante un único archivo HTML (`entrega/MrPatitas.html`), sin requerir instalaciones ni conexión a Internet por parte de la docente. No representa todavía la arquitectura Full-Stack de futuras entregas.
