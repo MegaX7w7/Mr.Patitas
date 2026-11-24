@@ -12,7 +12,7 @@ export function Hero() {
         <div className="lg:col-span-7">
           <div className="inline-flex items-center gap-2 rounded-full border border-brand-secondary/20 bg-white px-3.5 py-1.5 text-xs font-semibold text-brand-secondary shadow-xs">
             <span className="h-2 w-2 rounded-full bg-brand-primary" aria-hidden="true" />
-            Primera entrega funcional (MVP) · Catálogo demostrativo
+            Entrega 2 de 3 · Avance del catálogo web
           </div>
 
           <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-brand-secondary sm:text-4xl lg:text-5xl">
@@ -22,9 +22,9 @@ export function Hero() {
 
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone-600 sm:text-lg">
             Bienvenido a <strong className="font-semibold text-stone-800">{SITE_CONFIG.brandName}</strong>,
-            un catálogo virtual especializado en artículos para mascotas. Esta primera versión
-            presenta la estructura visual base y una selección inicial de productos de demostración
-            organizados por categoría y especie.
+            un catálogo virtual pensado para productos de mascotas. En este avance presentamos la
+            estructura visual principal y una muestra inicial de artículos organizados por categoría
+            y especie.
           </p>
 
           <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -48,9 +48,9 @@ export function Hero() {
             <div className="flex items-center justify-between border-b border-stone-100 pb-4">
               <div>
                 <p className="text-xs font-semibold tracking-wider text-stone-500 uppercase">
-                  Resumen de esta entrega
+                  Resumen del avance
                 </p>
-                <p className="mt-1 text-lg font-bold text-brand-secondary">Versión MVP Autónoma</p>
+                <p className="mt-1 text-lg font-bold text-brand-secondary">Entrega 2 de 3</p>
               </div>
               <span className="rounded-xl bg-hero-to p-2.5 text-brand-secondary" aria-hidden="true">
                 <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -87,9 +87,9 @@ export function Hero() {
             </dl>
 
             <p className="mt-5 rounded-xl border border-amber-200 bg-amber-50/80 px-3.5 py-2.5 text-xs leading-relaxed text-amber-950">
-              <strong className="font-semibold">Nota académica:</strong> Esta entrega presenta datos
-              de prueba. Funciones como registro, búsquedas, catálogo de 20+ artículos y carrito se
-              incorporarán en entregas posteriores.
+              <strong className="font-semibold">Nota:</strong> Esta entrega muestra datos de prueba.
+              El registro de usuarios, las búsquedas, el catálogo completo de 20 o más artículos y
+              el carrito se integrarán en la entrega final.
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@
   "name": "mr-patitas-frontend",
   "private": true,
   "version": "0.1.0",
-  "description": "Primera entrega funcional (MVP) del catálogo virtual Mr. Patitas",
+  "description": "Frontend del catálogo virtual Mr. Patitas (Entrega 2 de 3)",
   "type": "module",
   "scripts": {
     "dev": "vite",

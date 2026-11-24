@@ -1,5 +1,5 @@
 ====================================================================
-MR. PATITAS — PRIMERA ENTREGA FUNCIONAL (MVP)
+MR. PATITAS — ENTREGA 2 DE 3
 Institución Universitaria Politécnico Grancolombiano
 Software en Equipo (Metodología TSPi)
 ====================================================================
@@ -26,27 +26,27 @@ archivo "MrPatitas.html" desde el Explorador de Windows.
   y las 6 ilustraciones están integrados dentro de "MrPatitas.html".
 
 
-3. QUÉ INCLUYE ESTA PRIMERA ENTREGA (MVP)
------------------------------------------
-- Encabezado con identidad de Mr. Patitas y navegación básica
-  adaptable a escritorio y dispositivos móviles.
+3. QUÉ INCLUYE ESTA SEGUNDA ENTREGA (2 DE 3)
+--------------------------------------------
+- Encabezado con el nombre de Mr. Patitas y navegación adaptable a
+  escritorio y dispositivos móviles.
 - Sección principal de bienvenida.
 - Sección de categorías visuales (Alimentación, Paseo, Descanso,
   Juguetes e Higiene).
-- Catálogo demostrativo con 6 productos de ejemplo (3 para perros
-  y 3 para gatos), mostrando imagen, nombre, especie, categoría,
-  descripción breve, atributos, precio de prueba y stock de prueba.
+- Catálogo inicial con 6 productos de ejemplo (3 para perros y 3 para
+  gatos), mostrando imagen, nombre, especie, categoría, descripción
+  breve, atributos, precio de prueba y stock de prueba.
 - Pie de página informativo.
 
 IMPORTANTE: Todos los precios, descripciones y existencias mostradas
-son DATOS FICTICIOS DE PRUEBA para esta entrega académica y NO
-representan un inventario comercial real.
+son DATOS DE PRUEBA para esta entrega universitaria y NO representan
+un inventario comercial real.
 
 
-4. FUNCIONALIDADES APLAZADAS PARA PRÓXIMAS ENTREGAS
----------------------------------------------------
-En iteraciones posteriores se incorporarán: catálogo mínimo de 20
-productos (RF06), registro e inicio de sesión, búsqueda básica y
-avanzada, motor híbrido de búsqueda, vista ampliada de detalle,
-carrito de compras, validación real de stock, backend Fastify y
-base de datos PostgreSQL.
+4. PENDIENTE PARA LA ENTREGA FINAL (3 DE 3)
+-------------------------------------------
+En la entrega final se incorporarán: catálogo mínimo de 20 productos
+(RF06), registro e inicio de sesión, búsqueda básica y avanzada,
+motor de búsqueda con tablas hash, vista ampliada de detalle, carrito
+de compras, validación real de stock, backend Fastify y base de datos
+PostgreSQL.

@@ -22,8 +22,8 @@ export function ProductCatalog() {
             </h2>
             <p className="mt-2 max-w-2xl text-sm text-stone-600">
               Selección de {DEMO_PRODUCTS.length} artículos de ejemplo ({dogCount} para perros y{' '}
-              {catCount} para gatos) diseñados para validar la presentación visual y responsiva de
-              esta primera entrega.
+              {catCount} para gatos) para mostrar el diseño y la adaptación a escritorio y móvil en
+              esta segunda entrega.
             </p>
           </div>
           <div className="inline-flex items-center gap-2 self-start rounded-xl border border-stone-200 bg-white px-3.5 py-2 text-xs font-semibold text-stone-700 md:self-auto">
@@ -51,11 +51,11 @@ export function ProductCatalog() {
             />
           </svg>
           <p className="text-xs leading-relaxed sm:text-sm">
-            <strong className="font-semibold">Aviso sobre datos de demostración:</strong> Los
-            precios, descripciones y existencias mostradas en estas tarjetas son{' '}
-            <strong>datos ficticios de prueba</strong> creados exclusivamente para esta primera
-            entrega académica (MVP) y <strong>no representan inventario comercial real</strong>. El
-            catálogo mínimo de 20 artículos (RF06) corresponde a una entrega posterior.
+            <strong className="font-semibold">Aviso sobre datos de prueba:</strong> Los precios,
+            descripciones y existencias mostradas en estas tarjetas son{' '}
+            <strong>datos de ejemplo</strong> creados para la entrega 2 de 3 y{' '}
+            <strong>no representan inventario comercial real</strong>. El catálogo mínimo de 20
+            artículos (RF06) se completará en la entrega final.
           </p>
         </div>
 

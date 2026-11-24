@@ -2,12 +2,12 @@ import { PRODUCT_IMAGES } from '../assets/images';
 import type { DemoProduct } from '../types/product';
 
 /**
- * Datos ficticios de demostración para la primera entrega funcional (MVP).
+ * Datos de prueba para el catálogo inicial (Entrega 2 de 3).
  * Edita únicamente este archivo para modificar nombres, precios, stock,
  * descripciones o agregar nuevos artículos sin tocar las tarjetas ni contadores.
  *
- * NOTA: Estos datos NO representan inventario comercial real ni reemplazan
- * el requisito RF06 (mínimo 20 productos en entregas posteriores).
+ * NOTA: Estos datos son de prueba, no corresponden a inventario comercial real
+ * y se ampliarán a mínimo 20 productos (RF06) en la entrega final.
  */
 export const DEMO_PRODUCTS: DemoProduct[] = [
   {

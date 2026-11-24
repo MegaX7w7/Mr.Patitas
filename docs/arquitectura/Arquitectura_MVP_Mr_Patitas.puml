@@ -1,5 +1,5 @@
 @startuml
-title Mr. Patitas — Diagrama de componentes y despliegue del MVP
+title Mr. Patitas — Diagrama de componentes y despliegue (Entrega 2 de 3)
 left to right direction
 skinparam componentStyle rectangle
 skinparam shadowing false
@@ -11,7 +11,7 @@ actor "Profesora / Usuario" as User
 package "Equipo de desarrollo (solo en el PC del desarrollador)" {
   folder "frontend/" as Frontend {
     component "React + TypeScript\nComponentes UI (src/components/)" as ReactUI
-    component "Datos demo locales\ndemoProducts.ts / categories.ts" as DemoData
+    component "Datos de prueba\ndemoProducts.ts / categories.ts" as DemoData
     component "Estilos centralizados\nTailwind CSS (src/index.css)" as Styles
     component "Ilustraciones SVG\n(src/assets/images/)" as SVG
   }
@@ -21,14 +21,14 @@ package "Equipo de desarrollo (solo en el PC del desarrollador)" {
 
 package "Paquete de distribución: entrega/" {
   artifact "iniciar_mr_patitas.bat\nLanzador Windows" as BAT
-  artifact "MrPatitas.html\nHTML autónomo compilado" as HTML
+  artifact "MrPatitas.html\nHTML compilado portable" as HTML
   artifact "LEEME.txt\nInstrucciones" as Readme
 }
 
 node "PC Windows de la profesora" as PC {
   component "Navegador web\n(Edge / Chrome / Firefox)" as Browser
   component "Aplicación Mr. Patitas\nReact compilado + CSS + JS" as App
-  component "Datos locales de demostración\nincorporados al bundle" as DataRuntime
+  component "Datos locales de prueba\nincorporados al bundle" as DataRuntime
   component "SVG / recursos visuales\nincrustados" as AssetsRuntime
 }
 
@@ -37,7 +37,7 @@ ReactUI --> DemoData : consulta productos y categorías
 ReactUI --> Styles : utiliza estilos
 ReactUI --> SVG : muestra ilustraciones
 Frontend --> Vite : fuente de compilación
-Vite --> SingleFile : genera build autónomo
+Vite --> SingleFile : genera build portable
 SingleFile --> HTML : produce archivo único
 Dev --> BAT : prepara y prueba la entrega
 
@@ -45,7 +45,7 @@ User --> BAT : doble clic
 BAT --> HTML : abre mediante ruta relativa\n(%~dp0MrPatitas.html)
 HTML --> Browser : archivo local (file://)
 Browser --> App : ejecuta JavaScript compilado
-App --> DataRuntime : lee catálogo demo
+App --> DataRuntime : lee catálogo de prueba
 App --> AssetsRuntime : muestra recursos integrados
 
 note bottom of Frontend
@@ -64,7 +64,7 @@ note right of HTML
   El HTML final integra dentro del archivo:
   - JavaScript compilado
   - CSS compilado
-  - datos de demostración
+  - datos de prueba
   - ilustraciones SVG
   No depende de CDN, fetch() ni rutas externas.
 end note

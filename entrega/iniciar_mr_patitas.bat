@@ -5,7 +5,7 @@ chcp 65001 >nul
 set "HTML_FILE=%~dp0MrPatitas.html"
 
 echo ========================================================
-echo   Mr. Patitas - Catalogo Virtual (Primera Entrega MVP)
+echo   Mr. Patitas - Catalogo Virtual (Entrega 2 de 3)
 echo ========================================================
 echo.
 
